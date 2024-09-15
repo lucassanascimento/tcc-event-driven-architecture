@@ -29,11 +29,11 @@ Cada ferramenta contém um tutorial com o passo a passo para execução. Acesse 
 
 ### Kafka Example
 ![Kafka Architecture](./kafka-architecture.png)
-> Exemplo de arquitetura utilizando Apache Kafka para comunicação entre microsserviços.
+> Exemplo de arquitetura utilizando Apache Kafka para comunicação assincrona entre serviços.
 
 ### RabbitMQ Example
 ![RabbitMQ Architecture](./rabbitMQ-architecture.png)
-> Exemplo de arquitetura utilizando RabbitMQ para comunicação entre microsserviços.
+> Exemplo de arquitetura utilizando RabbitMQ para comunicação assincrona entre serviços.
 
 ---
 
@@ -73,7 +73,7 @@ Este projeto está licenciado sob a licença [MIT](./LICENSE).
 
 ## 📧 Contato
 
-Se tiver dúvidas ou sugestões, sinta-se à vontade para abrir uma **issue** ou entrar em contato!
+Se tiver dúvidas ou sugestões, sinta-se à vontade para abrir uma **issue** ou entrar em [contato](https://github.com/lucassanascimento)!
 
 ---
 
