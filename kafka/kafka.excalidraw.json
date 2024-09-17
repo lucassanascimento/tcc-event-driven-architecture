@@ -39,8 +39,8 @@
     },
     {
       "type": "text",
-      "version": 437,
-      "versionNonce": 1927370992,
+      "version": 439,
+      "versionNonce": 1411599814,
       "isDeleted": false,
       "id": "54O6nEKfUyw_WGbdvlXLK",
       "fillStyle": "solid",
@@ -60,7 +60,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726423086959,
+      "updated": 1726580723675,
       "link": null,
       "locked": false,
       "fontSize": 20.884973144531244,
@@ -71,7 +71,7 @@
       "containerId": null,
       "originalText": "Kafka \nBroker de Mensagens",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 44
     },
     {
       "type": "rectangle",
@@ -151,9 +151,9 @@
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "CnYfwKI4owu6Ek-gVuist",
-      "originalText": "Tópico: example-topic",
+      "originalText": "Tópico: simple-example",
       "lineHeight": 1.25,
-      "baseline": 42
+      "baseline": 44
     },
     {
       "type": "rectangle",
@@ -227,7 +227,7 @@
       "containerId": "mglTqZVbDRr30V_h3Tw9d",
       "originalText": "Consumer 0\nProcessa Mensagens",
       "lineHeight": 1.25,
-      "baseline": 42
+      "baseline": 44
     },
     {
       "type": "arrow",
@@ -371,8 +371,8 @@
     },
     {
       "type": "text",
-      "version": 531,
-      "versionNonce": 691072528,
+      "version": 533,
+      "versionNonce": 1825954202,
       "isDeleted": false,
       "id": "Bq3Kgmm7h6jB5H6QRv8ZC",
       "fillStyle": "solid",
@@ -392,7 +392,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726423086960,
+      "updated": 1726580723676,
       "link": null,
       "locked": false,
       "fontSize": 20.884973144531244,
@@ -403,7 +403,7 @@
       "containerId": null,
       "originalText": "Producer\nEnvia mensagens",
       "lineHeight": 1.25,
-      "baseline": 43
+      "baseline": 44
     },
     {
       "type": "rectangle",
@@ -481,7 +481,7 @@
       "containerId": "yT5X7s9HW38h39nHc_I8Z",
       "originalText": "Partição 0",
       "lineHeight": 1.25,
-      "baseline": 17
+      "baseline": 19
     },
     {
       "type": "rectangle",
@@ -555,7 +555,7 @@
       "containerId": "s7XFUYXOIN9LLOrsNl5HI",
       "originalText": "Partição N",
       "lineHeight": 1.25,
-      "baseline": 17
+      "baseline": 19
     },
     {
       "type": "arrow",
@@ -611,8 +611,8 @@
     },
     {
       "type": "text",
-      "version": 100,
-      "versionNonce": 1898494704,
+      "version": 102,
+      "versionNonce": 1463919878,
       "isDeleted": false,
       "id": "yAbcsQuHtAYPQzoILnwty",
       "fillStyle": "solid",
@@ -632,7 +632,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726423086960,
+      "updated": 1726580723676,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -643,7 +643,7 @@
       "containerId": null,
       "originalText": "...",
       "lineHeight": 1.25,
-      "baseline": 17
+      "baseline": 18
     },
     {
       "type": "arrow",
@@ -765,12 +765,12 @@
       "containerId": "PAVgSooXQQMAAKrl2olVf",
       "originalText": "Consumer N\nProcessa Mensagens",
       "lineHeight": 1.25,
-      "baseline": 42
+      "baseline": 44
     },
     {
       "type": "text",
-      "version": 155,
-      "versionNonce": 520662032,
+      "version": 157,
+      "versionNonce": 1926993498,
       "isDeleted": false,
       "id": "GLR4PzuUa0ZnolZjyXUQ-",
       "fillStyle": "solid",
@@ -790,7 +790,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726423086960,
+      "updated": 1726580723676,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -801,7 +801,7 @@
       "containerId": null,
       "originalText": "...",
       "lineHeight": 1.25,
-      "baseline": 17
+      "baseline": 18
     },
     {
       "type": "arrow",
@@ -853,8 +853,8 @@
     },
     {
       "type": "text",
-      "version": 139,
-      "versionNonce": 875814128,
+      "version": 141,
+      "versionNonce": 1796412486,
       "isDeleted": false,
       "id": "-wlMtdw_5_tORifErB6sw",
       "fillStyle": "solid",
@@ -874,7 +874,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1726423086961,
+      "updated": 1726580723677,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -885,7 +885,7 @@
       "containerId": null,
       "originalText": "Publica Mensagens no tópico",
       "lineHeight": 1.25,
-      "baseline": 17
+      "baseline": 18
     }
   ],
   "appState": {
