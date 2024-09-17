@@ -20,7 +20,7 @@ func NotifyConsumer(ctx context.Context, logger *slog.Logger, broker, topic stri
 		select {
 		case <-ctx.Done():
 			logger.Info("Context canceled, stopping consumer...")
-			return ctx.Err() // Retorna o erro associado ao cancelamento do contexto
+			return ctx.Err() // Returns the error associated with the context cancellation
 
 		default:
 
