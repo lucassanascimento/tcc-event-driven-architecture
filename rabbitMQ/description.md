@@ -47,7 +47,7 @@ docker ps
 
 Com o RabbitMQ executando utilizando o docker, execute a aplicação Go.
 
-Entre no diretório `golang-example` e execute o seguinte comando:
+Entre no diretório (Ex: `golang-simple-example`) e execute o seguinte comando:
 
 > 🐹 **Dica**: Certifique-se de que as dependências do Golang estão instaladas corretamente usando `go mod tidy` antes de rodar o projeto.
 

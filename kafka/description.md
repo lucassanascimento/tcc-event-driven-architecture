@@ -31,10 +31,12 @@ docker exec -it kafka-kafka-1 /bin/bash
 
 #### 📝 Criar o Tópico
 
-Crie um tópico chamado `example-topic` com a configuração básica de partições e fator de replicação:
+Crie os tópicos com configuração básica de partições e fator de replicação:
 
 ```bash
-kafka-topics.sh --create --topic example-topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+kafka-topics.sh --create --topic simple-example --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+
+kafka-topics.sh --create --topic football-example --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 ```
 
 #### ✅ Validar a Criação do Tópico
@@ -51,7 +53,7 @@ kafka-topics.sh --list --bootstrap-server localhost:9092
 
 Com o Kafka e o tópico configurados, execute a aplicação Go.
 
-Entre no diretório `golang-example` e execute o seguinte comando:
+Entre no diretório desejado (Ex: `golang-simple-example`) e execute o seguinte comando:
 
 > 🐹 **Dica**: Certifique-se de que as dependências do Golang estão instaladas corretamente usando `go mod tidy` antes de rodar o projeto.
 
@@ -65,7 +67,7 @@ go run .
 
 ### 🎯 Pronto!
 
-Agora sua aplicação está rodando e se comunicando com o **Kafka** usando o tópico `example-topic`.
+Agora sua aplicação está rodando e se comunicando com o **Kafka** usando o tópico `simple-example`.
 
 Caso tudo esteja configurado, você poderá ver algo parecido com isso em seu console:
 ```bash
