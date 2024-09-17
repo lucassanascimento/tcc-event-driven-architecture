@@ -31,7 +31,7 @@ func AnalyticsConsumer(ctx context.Context, logger *slog.Logger, broker, topic s
 	}
 
 	for {
-		// Verifica se o contexto foi cancelado
+		// Checks if the context has been canceled
 		select {
 		case <-ctx.Done():
 			logger.Info("Context canceled, stopping consumer...")
