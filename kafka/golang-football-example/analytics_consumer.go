@@ -49,7 +49,7 @@ func AnalyticsConsumer(ctx context.Context, logger *slog.Logger, broker, topic s
 				return err
 			}
 
-			// Transforma o evento de json para struct em go
+			// Converts the event from JSON to a struct in Go
 			var event Event
 			if err := json.Unmarshal(m.Value, &event); err != nil {
 				logger.Error("unmarshal", slog.String("error", err.Error()))
