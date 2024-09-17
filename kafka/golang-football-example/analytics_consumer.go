@@ -38,7 +38,7 @@ func AnalyticsConsumer(ctx context.Context, logger *slog.Logger, broker, topic s
 			return ctx.Err() // Retorna o erro associado ao cancelamento do contexto
 
 		default:
-			// Tenta ler uma nova mensagem
+			// Try read a new message
 			m, err := r.ReadMessage(ctx)
 			if err != nil {
 				if err == context.Canceled || err == context.DeadlineExceeded {
