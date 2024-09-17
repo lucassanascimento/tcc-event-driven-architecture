@@ -17,7 +17,7 @@ func AnalyticsConsumer(ctx context.Context, logger *slog.Logger, broker, topic s
 	logger.Info("AnalyticsConsumer started. Waiting for events...")
 
 	var totalScore, teamATotalScore, teamBTotalScore int
-	// Função para atualizar contadores
+	// Function to update counters
 	updateScores := func(event Event) {
 		totalScore += event.ScoreTeamA + event.ScoreTeamB // Total de Gols na Partida
 		teamATotalScore += event.ScoreTeamA               // Total de gols Time A
