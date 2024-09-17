@@ -20,7 +20,7 @@ func AnalyticsConsumer(ctx context.Context, logger *slog.Logger, broker, topic s
 	// Function to update counters
 	updateScores := func(event Event) {
 		totalScore += event.ScoreTeamA + event.ScoreTeamB // Total Goals in the Match
-		teamATotalScore += event.ScoreTeamA               // Total de gols Time A
+		teamATotalScore += event.ScoreTeamA               // Total goals Team A
 		teamBTotalScore += event.ScoreTeamB               // Total de gols Time B
 
 		logger.Info("AnalyticsConsumer:",
