@@ -29,7 +29,7 @@ func main() {
 	go AnalyticsConsumer(ctx, logger, broker, topic)
 
 	for {
-
+	// sends a new event every 5 seconds
 		event := Event{
 			MatchID:    "Team A x Team B",
 			Timestamp:  time.Now().UTC(),
