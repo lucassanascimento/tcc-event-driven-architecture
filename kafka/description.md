@@ -31,7 +31,7 @@ docker exec -it kafka-kafka-1 /bin/bash
 
 #### 📝 Criar o Tópico
 
-Crie os tópicos com a configuração básica de partições e fator de replicação:
+Crie os tópicos com configuração básica de partições e fator de replicação:
 
 ```bash
 kafka-topics.sh --create --topic simple-example --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
