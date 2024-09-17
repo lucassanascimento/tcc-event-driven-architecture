@@ -56,7 +56,7 @@ func AnalyticsConsumer(ctx context.Context, logger *slog.Logger, broker, topic s
 				return err
 			}
 
-			// Atualiza os contadores ao receber um novo evento
+			// Updates the counters upon receiving a new event
 			updateScores(event)
 		}
 	}
