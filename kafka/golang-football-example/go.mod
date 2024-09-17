@@ -2,7 +2,10 @@ module main.go
 
 go 1.22.4
 
-require github.com/segmentio/kafka-go v0.4.47
+require (
+	github.com/segmentio/kafka-go v0.4.47
+	golang.org/x/sync v0.8.0
+)
 
 require (
 	github.com/klauspost/compress v1.15.9 // indirect
