@@ -23,7 +23,6 @@ func NotifyConsumer(ctx context.Context, logger *slog.Logger, broker, topic stri
 			return ctx.Err() // Returns the error associated with the context cancellation
 
 		default:
-
 			m, err := r.ReadMessage(ctx)
 			if err != nil {
 				logger.Error("could not read message: ", slog.String("error", err.Error()))
