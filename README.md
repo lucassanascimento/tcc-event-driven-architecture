@@ -42,24 +42,38 @@ Cada ferramenta contém um tutorial com o passo a passo para execução. Acesse 
 ```bash
 .
 ├── kafka
-│   ├── compose.yml
-│   ├── description.md         # Tutorial do Kafka
-│   ├── golang-example         # Exemplo prático em Golang
-│   │   ├── go.mod
-│   │   ├── go.sum
-│   │   └── main.go
-│   └── kafka.excalidraw.json   # Arquivo de design do Excalidraw
-├── kafka-architecture.png      # Arquitetura Kafka
+│   ├── compose.yml
+│   ├── description.md
+│   ├── golang-football-example
+│   │   ├── analytics_consumer.go
+│   │   ├── go.mod
+│   │   ├── go.sum
+│   │   ├── main.go
+│   │   ├── notify_consumer.go
+│   │   └── producer.go
+│   ├── golang-simple-example
+│   │   ├── go.mod
+│   │   ├── go.sum
+│   │   └── main.go
+│   └── kafka.excalidraw.json
+├── kafka-architecture.png
 ├── LICENSE
 ├── rabbitMQ
-│   ├── compose.yml
-│   ├── description.md         # Tutorial do RabbitMQ
-│   ├── golang-example         # Exemplo prático em Golang
-│   │   ├── go.mod
-│   │   ├── go.sum
-│   │   └── main.go
-│   └── rabbitMQ.excalidraw.json  # Arquivo de design do Excalidraw
-├── rabbitMQ-architecture.png   # Arquitetura RabbitMQ
+│   ├── compose.yml
+│   ├── description.md
+│   ├── golang-football-example
+│   │   ├── analytics_consumer.go
+│   │   ├── go.mod
+│   │   ├── go.sum
+│   │   ├── main.go
+│   │   ├── notify_consumer.go
+│   │   └── producer.go
+│   ├── golang-simple-example
+│   │   ├── go.mod
+│   │   ├── go.sum
+│   │   └── main.go
+│   └── rabbitMQ.excalidraw.json
+├── rabbitMQ-architecture.png
 └── README.md
 ```
 
