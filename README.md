@@ -1,7 +1,7 @@
 
 ---
 
-# 🚀 Arquitetura orientada a eventos: Mapeamento sistemático da Literatura
+# 🚀 Arquitetura orientada a eventos: Mapeamento sistemático da Literatura.
 
 Este repositório tem como propósito disponibilizar **tutoriais** sobre a implementação de ferramentas utilizadas na **comunicação entre microsserviços** usando a arquitetura orientada a eventos.
 
